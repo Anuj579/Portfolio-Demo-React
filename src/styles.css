@@ -148,6 +148,30 @@ img.socialIcon {
     width: 90vw;
     padding: 1rem;
   }
+
+  .header-div .nav-lg{
+    gap: 1.5rem;
+  }
+
+  /* .header-div .nav-sm{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5rem;
+  }
+
+  .header-div .nav-sm a{
+    margin: 1rem 0;
+  }
+
+  .navToggler{
+    display: flex;
+    justify-content: end;
+  }
+  .header-div .nav-sm .menuToggler a{
+    text-decoration: none;
+    background: none;
+    background-color: transparent;
+  } */
 }
 
 .about-div{
@@ -169,3 +193,14 @@ img.socialIcon {
     transform: translateX(0);
   }
 }
+
+.nav-lg{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1.5rem 0;
+}
+
+/* .nav-sm{
+  display: none;
+} */
