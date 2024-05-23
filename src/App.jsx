@@ -13,11 +13,8 @@ const siteProps = {
   title: "Web Designer & Web Developer",
   email: "anujchaudhary3112@gmail.com",
   gitHub: "Anuj579",
-  instagram: "/",
   linkedIn: "anujchaudhary549/",
-  medium: "",
   twitter: "anuj_549",
-  youTube: "/",
 };
 
 const primaryColor = "#000";
