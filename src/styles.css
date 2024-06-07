@@ -103,20 +103,22 @@ a:hover {
 }
 
 .container {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 330px 300px;
-  margin: 20px auto;
+  margin-top: 35px;
+  display: flex ;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .container .box {
   border-radius: 10px;
   border: 1px solid rgb(204, 204, 204);
+  width: 300px;
+  padding: 24px 18px;
+  margin: 20px;
+  text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  padding: 24px 16px;
-  text-align: center;
+  
 }
 
 #portfolio {
@@ -152,26 +154,6 @@ img.socialIcon {
   .header-div .nav-lg{
     gap: 1.5rem;
   }
-
-  /* .header-div .nav-sm{
-    display: flex;
-    flex-direction: column;
-    padding: 0 1.5rem;
-  }
-
-  .header-div .nav-sm a{
-    margin: 1rem 0;
-  }
-
-  .navToggler{
-    display: flex;
-    justify-content: end;
-  }
-  .header-div .nav-sm .menuToggler a{
-    text-decoration: none;
-    background: none;
-    background-color: transparent;
-  } */
 }
 
 .about-div{
@@ -200,7 +182,3 @@ img.socialIcon {
   gap: 2rem;
   padding: 1.5rem 0;
 }
-
-/* .nav-sm{
-  display: none;
-} */

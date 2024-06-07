@@ -60,11 +60,11 @@ const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+      <div style={{paddingTop: "3rem" }}>
+        <div style={{  alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "3s ease-out 0s 1 slideInLeft"   }}
+            style={{ height: "50vh", width:'100vw', objectFit: "cover", animation: "3s ease-out 0s 1 slideInLeft"   }}
             alt={imageAltText}
           />
         </div>
