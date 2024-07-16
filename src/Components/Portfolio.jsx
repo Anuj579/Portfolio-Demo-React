@@ -40,7 +40,7 @@ const projectList = [
     title: "Time Tracer Website",
     description:
       "Created a single-page website using HTML, CSS, and JavaScript. Implemented time tracing functionality where users can input a date and time, and the app calculates and displays the time left until or since the selected time. ",
-    url: "https://timetracer.infinityfreeapp.com/",
+    url: "https://timetracer9.netlify.app/",
   },
   {
     title: "Todo App with React",
